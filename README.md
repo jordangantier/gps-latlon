@@ -10,7 +10,7 @@ Install:
 
 import module in your file with:
 
-    const latlon = require('gps_latlon');
+    const latlon = require('gps-latlon');
 
 Form of use:
 
