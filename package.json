@@ -1,0 +1,30 @@
+{
+  "name": "gps-latlon",
+  "version": "1.0.0",
+  "description": "Snippet in JS that calculates the distance between two latitude and longitude coordinates in kilometers, meters, miles, yards, feet and nautical miles, from decimal degrees (GPS coordinates) using the Harvesine formula.",
+  "main": "src/index.min.js",
+  "scripts": {
+    "test": "latlon run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gps-latlon"
+  },
+  "keywords": [
+    "GPS",
+    "latitude",
+    "longitude",
+    "distance",
+    "meters",
+    "kilometers",
+    "feet",
+    "miles",
+    "nautical miles",
+    "npm",
+    "javascript",
+    "harvesine"
+  ],
+  "author": "Jordan Gantier R.",
+  "email": "jordangantier@gmail.com",
+  "license": "ISC"
+}
