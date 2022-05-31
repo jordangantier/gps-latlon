@@ -23,7 +23,8 @@ Conversion unit can be:
 - Miles: 'ml'
 - Meters: 'm'
 - Kilometers: 'km'
-- Nautical Miles: 'nml'
+- Nautical Miles: 'nm'
+- NAutical Leagues: 'nl'
 
 Use example:
 

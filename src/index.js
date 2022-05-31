@@ -4,13 +4,15 @@ function gpslatlon(lat1, lon1, lat2, lon2, units) {
         units = 'km';
     }
     if (units == 'ft') {
-        s = 3280.84;
+        s = 3280.8399;
     } else if (units == 'yd') {
-        s = 1093.613;
+        s = 1093.6133;
     } else if (units == 'ml') {
-        s = 0.62137;
-    } else if (units == 'nml') {
-        s = 0.53996;
+        s = 0.6214;
+    } else if (units == 'nm') {
+        s = 0.5399;
+    } else if (units == 'nl') {
+        s = 0.1799;
     } else if (units == 'm') {
         s = 1000;
     } else if (units == 'km') {
