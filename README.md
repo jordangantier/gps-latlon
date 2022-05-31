@@ -29,7 +29,7 @@ Use example:
 
     latlon(-17.64582, -63.336103, -17.644973, -63.141274, 'ml')
 
-Returns: **12.828** (in nautical miles).
+Returns: **12.828** (in miles).
 
 If no conversion unit is used, kilometers will be assumed as the default unit.
 

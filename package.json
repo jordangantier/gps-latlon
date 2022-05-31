@@ -1,6 +1,6 @@
 {
   "name": "gps-latlon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NPM Module in JS that calculates the distance between two latitude and longitude coordinates in kilometers, meters, miles, yards, feet and nautical miles, from decimal degrees (GPS coordinates) using the Harvesine formula.",
   "main": "src/index.min.js",
   "scripts": {
