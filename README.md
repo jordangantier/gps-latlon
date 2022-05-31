@@ -14,7 +14,7 @@ import module in your file with:
 
 Form of use:
 
-    latlonDist(lat1, lon1, lat2, lon2, 'conversion_unit')
+    latlon(lat1, lon1, lat2, lon2, 'conversion_unit')
 
 Conversion unit can be:
 
@@ -25,12 +25,16 @@ Conversion unit can be:
 - Kilometers: 'km'
 - Nautical Miles: 'nml'
 
-If no conversion unit is used, kilometers will be assumed as the default unit.
-
 Use example:
 
-    latlon(-17.64582, -63.336103, -17.644973, -63.141274, "ml")
+    latlon(-17.64582, -63.336103, -17.644973, -63.141274, 'ml')
 
-Returns: **12.828**
+Returns: **12.828** (in nautical miles).
+
+If no conversion unit is used, kilometers will be assumed as the default unit.
+
+    latlon(-17.64582, -63.336103, -17.644973, -63.141274)
+
+Returns: **20.645** (in kilometers).
 
 Enjoy!
