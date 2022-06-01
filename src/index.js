@@ -1,8 +1,5 @@
-function gpslatlon(lat1, lon1, lat2, lon2, units) {
-    let s = 1;
-    if (units == null) {
-        units = 'km';
-    }
+function gpslatlon(lat1, lon1, lat2, lon2, units = 'km') {
+    let s;
 
     switch (units) {
         case ('ft'):
