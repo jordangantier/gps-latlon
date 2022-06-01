@@ -3,22 +3,29 @@ function gpslatlon(lat1, lon1, lat2, lon2, units) {
     if (units == null) {
         units = 'km';
     }
-    if (units == 'ft') {
-        s = 3280.8399;
-    } else if (units == 'yd') {
-        s = 1093.6133;
-    } else if (units == 'ml') {
-        s = 0.6214;
-    } else if (units == 'nm') {
-        s = 0.5399;
-    } else if (units == 'nl') {
-        s = 0.1799;
-    } else if (units == 'm') {
-        s = 1000;
-    } else if (units == 'km') {
-        s = 1;
-    } else {
-        s = 1;
+
+    switch (units) {
+        case ('ft'):
+            s = 3280.8399;
+            break;
+        case ('yd'):
+            s = 1093.6133;
+            break;
+        case ('ml'):
+            s = 0.6214;
+            break;
+        case ('nm'):
+            s = 0.5399;
+            break;
+        case ('nl'):
+            s = 0.1799;
+            break;
+        case ('m'):
+            s = 1000;
+            break;
+        case ('km'):
+            s = 1;
+            break;
     }
 
     let p = 0.017453292519943295;
